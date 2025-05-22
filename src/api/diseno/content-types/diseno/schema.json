@@ -1,0 +1,119 @@
+{
+  "kind": "singleType",
+  "collectionName": "disenos",
+  "info": {
+    "singularName": "diseno",
+    "pluralName": "disenos",
+    "displayName": "Diseño",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero_title": {
+      "type": "string",
+      "required": true
+    },
+    "hero_slogan": {
+      "type": "string",
+      "required": true
+    },
+    "who_we_are_title": {
+      "type": "string",
+      "required": true
+    },
+    "who_we_are_info": {
+      "type": "string",
+      "required": true
+    },
+    "who_we_are_card_1_title": {
+      "type": "string"
+    },
+    "who_we_are_card_1_info": {
+      "type": "string"
+    },
+    "who_we_are_card_2_title": {
+      "type": "string"
+    },
+    "who_we_are_card_2_info": {
+      "type": "string"
+    },
+    "who_we_are_card_3_title": {
+      "type": "string"
+    },
+    "who_we_are_card_3_info": {
+      "type": "string"
+    },
+    "who_we_are_card_4_title": {
+      "type": "string"
+    },
+    "who_we_are_card_4_info": {
+      "type": "string"
+    },
+    "our_products_title": {
+      "type": "string",
+      "required": true
+    },
+    "out_products_info": {
+      "type": "string",
+      "required": true
+    },
+    "our_products_item_1_title": {
+      "type": "string"
+    },
+    "our_products_item_1_info": {
+      "type": "string"
+    },
+    "our_products_item_2_title": {
+      "type": "string"
+    },
+    "our_products_item_2_info": {
+      "type": "string"
+    },
+    "our_products_item_3_title": {
+      "type": "string"
+    },
+    "our_products_item_3_info": {
+      "type": "string"
+    },
+    "testimonials_title": {
+      "type": "string",
+      "required": true
+    },
+    "testimonials_info": {
+      "type": "string",
+      "required": true
+    },
+    "question_title": {
+      "type": "string",
+      "required": true
+    },
+    "question_info": {
+      "type": "string",
+      "required": true
+    },
+    "call_to_action_title": {
+      "type": "string",
+      "required": true
+    },
+    "call_to_action_info": {
+      "type": "string",
+      "required": true
+    },
+    "hero_background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}
